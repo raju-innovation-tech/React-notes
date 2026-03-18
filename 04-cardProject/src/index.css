@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.parent{
+  height: 100vh;
+  width: 100%;
+  background: rgb(130, 56, 200);
+  padding: 30px;
+}
+.card{
+  height: 400px;
+  width:300px;
+  background-color: rgb(25, 25, 193);
+  border-radius: 30px;
+  padding: 30px;
+  
+}
+
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.top img{
+  
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+
+ 
+}
+.top button{
+  display: flex;
+  align-items: center;
+}
