@@ -111,8 +111,8 @@ const App = () => {
         { jobs.map((element, index)=>{
 
             return 
-                 <div>
-                    <Card  key={index}
+                 <div key={index}>
+                    <Card  
                        brandLogo={element.brandLogo}
                        companyName={element.companyName}
                        postedDate={element.postedDate}
