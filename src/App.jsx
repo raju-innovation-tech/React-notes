@@ -1,11 +1,25 @@
-import React from 'react'
+import Hero from "./components/Hero/Hero";
+import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <h1>hello</h1>
+      <Hero />
+
+      <Card
+        title="Card 1"
+        description="This is a simple card component."
+      />
+
+      <Card
+        title="Card 2"
+        description="You can reuse this component easily."
+      />
+
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
